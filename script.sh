@@ -18,10 +18,11 @@ touch $APPNAME/README.MD
 echo "# $APPNAME" >> $APPNAME/README.MD
 
 # 5. NPM
+cd $APPNAME
 npm install
 
 # 6. Remove old .git repo
-rm -rf $APPNAME/.git
+rm -rf .git
 
 # 7. git commands
 git init
