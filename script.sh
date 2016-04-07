@@ -21,8 +21,9 @@ echo "# $APPNAME" >> README.MD
 # 5. NPM
 npm install
 
-# 6. Remove old .git repo
+# 6. Remove unwanted files
 rm -rf .git
+rm script.sh
 
 # 7. git commands
 git init
@@ -31,4 +32,3 @@ git commit -m "Initial commit"
 
 #8. Done.
 echo "Enjoying your new app!"
-
