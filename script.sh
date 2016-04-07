@@ -31,4 +31,4 @@ git add .
 git commit -m "Initial commit"
 
 #8. Done.
-echo "Enjoying your new app!"
+echo "Enjoy your new app!"
