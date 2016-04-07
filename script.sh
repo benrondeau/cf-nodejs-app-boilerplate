@@ -13,12 +13,12 @@ git clone "https://github.com/benrondeau/cf-nodejs-app-boilerplate.git"
 mv cf-nodejs-app-boilerplate $APPNAME
 
 # 4. Add App Name to README
-rm $APPNAME/README.MD
-touch $APPNAME/README.MD
-echo "# $APPNAME" >> $APPNAME/README.MD
+cd $APPNAME
+rm README.MD
+touch README.MD
+echo "# $APPNAME" >> README.MD
 
 # 5. NPM
-cd $APPNAME
 npm install
 
 # 6. Remove old .git repo
