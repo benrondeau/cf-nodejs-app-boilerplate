@@ -1,0 +1,19 @@
+{
+  "name": "cf-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cfenv": "*",
+    "express": "*"
+  },
+  "engine": {
+    "node": "v4.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "*"
+  }
+}
